@@ -9,11 +9,13 @@ set(CMAKE_EXPORT_COMPILE_COMMANDS 1)
 
 if(MSVC)
     # Compiler flags for Visual Studio
-    set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} /W4 /WX /O2")
+    set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} /W4 /WX /O2 /wd4100")
 else()
     # Compiler flags for other compilers (e.g., GCC, Clang)
     set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wall -Wextra -Werror -O2")
 endif()
+
+
 
 include(FetchContent)
 FetchContent_Declare(

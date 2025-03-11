@@ -1,0 +1,12 @@
+{
+  "version": "0.2.1",
+  "defaults": {},
+  "configurations": [
+    {
+      "type": "default",
+      "project": "CMakeLists.txt",
+      "projectTarget": "algorithms_test.exe (algorithms\\algorithms_test.exe)",
+      "name": "algorithms_test.exe (algorithms\\algorithms_test.exe)"
+    }
+  ]
+}
