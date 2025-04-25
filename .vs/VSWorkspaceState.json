@@ -7,10 +7,11 @@
   },
   "ExpandedNodes": [
     "",
-    "\\algorithms",
-    "\\algorithms\\include",
-    "\\algorithms\\src",
-    "\\algorithms\\test"
+    "\\battleship",
+    "\\battleship\\include",
+    "\\battleship\\src",
+    "\\battleship\\test"
   ],
+  "SelectedNode": "\\battleship\\src\\user_solver.cpp",
   "PreviewInSolutionExplorer": false
 }
